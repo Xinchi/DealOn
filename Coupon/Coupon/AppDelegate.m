@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-//Hello
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
